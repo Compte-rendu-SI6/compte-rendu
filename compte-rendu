@@ -1,0 +1,16 @@
+a ) Il faut avant tout se placer dans le dossier où se trouve notre code source.
+        Par exemple : cd /home/etudiant/Developpement/SI6
+
+    Une fois bien placé dans notre dossier, nous devons écrire cette commande, qui est : 
+        git init --> Crée un dépôt local 
+
+    Ensuite nous allons ajouter un instantané du fichier souhaité :
+        git add compte-rendu --> Le nom du dossier est à mettre à la place de compte-rendu, qui est seulement un exemple.
+
+
+    Nous allons désormais entrer une commande qui enregistrera 
+
+    
+
+    
+    
