@@ -8,7 +8,27 @@ a ) Il faut avant tout se placer dans le dossier où se trouve notre code source
         git add compte-rendu --> Le nom du dossier est à mettre à la place de compte-rendu, qui est seulement un exemple.
 
 
-    Nous allons désormais entrer une commande qui enregistrera 
+    Contexte : Nous disposons d'un dépôt hébergé par GitHub.
+Objectif : Récupérer une copie du dépôt et travailler dessus en local. 
+
+1) Il faut entrer la ligne de commande "git init" qui permet d'initialiser un dépôt git.
+
+2) Il faut ensuite entrer la commande suivante : cd /home/etudiant/nomdufichier/nomdufichier $ git clone [URL]( l'URL de git hub avec notre dossier). 
+
+3) Suite à cela il faut entrer la ligne suivante : git add nomdufichier (permet d'ajouter le fichier sur GitHub).
+
+4) Après il faut taper : git status (permet de vérifier si le fichier est bien présent). 
+
+5) Il faut taper : git commit -m "commentaires" ( les commentaires sont obligatoires lors de cette instruction).
+
+Suite à cela il faut taper les 2 lignes suivantes : 
+
+a) git config user.name"YourName".
+b) git config user.email"YourEmail"
+
+6) il faut taper : git remode add origin + URL dossier sur GitHub.
+
+7) Pour finir il faut entrer : git push -u origin master et après se connecter sur GitHub.
 
     
 
