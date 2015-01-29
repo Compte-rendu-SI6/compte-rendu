@@ -6,7 +6,22 @@ a ) Il faut avant tout se placer dans le dossier où se trouve notre code source
 
     Ensuite nous allons ajouter un instantané du fichier souhaité :
         git add compte-rendu --> Le nom du dossier est à mettre à la place de compte-rendu, qui est seulement un exemple.
+        
+   Après avoir ajouté un instantané de notre fichier, il est important également de définir notre nom et notre email associés
+   à nos commits :
+   
+        git config user.name "Simon.Gilbert"
+        git config user.email "simon.gilbert@bts-malraux.net"
+        
+   Il faut désormais enregistré un instantané de notre fichier, compte-rendu dans ce cas présent
+        git commit -m "V1"
+        
+   
+   Nous associons maintenant l'endroit où notre fichier va être enregistré sur la plateforme GitHub
+        git remote add origin https://github.com/Compte-rendu-SI6/compte-rendu.git
 
+   Et enfin, nous n'avons plus qu'à "pousser" notre fichier vers GitHub
+        git push -u origin master
 
     Contexte : Nous disposons d'un dépôt hébergé par GitHub.
 Objectif : Récupérer une copie du dépôt et travailler dessus en local. 
